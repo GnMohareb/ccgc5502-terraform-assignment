@@ -1,0 +1,11 @@
+# Normalise line endings so the working tree does not show every file as
+# modified on Windows. Text files are stored LF in the repository and checked
+# out with the platform's native endings.
+* text=auto
+
+*.tf      text eol=lf
+*.hcl     text eol=lf
+*.md      text eol=lf
+*.sh      text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
